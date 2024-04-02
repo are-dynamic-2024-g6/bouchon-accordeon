@@ -1,0 +1,102 @@
+import random
+
+#dictionnaire suréactif
+reaction_sureactif={}
+reaction_sureactif[(3,0)]=3
+reaction_sureactif[(3,-1)]=1
+reaction_sureactif[(3,-2)]=0
+reaction_sureactif[(3,-3)]=0
+reaction_sureactif[(2,1)]=2
+reaction_sureactif[(2,0)]=2
+reaction_sureactif[(2,-1)]=0
+reaction_sureactif[(2,-2)]=0
+reaction_sureactif[(1,2)]=2
+reaction_sureactif[(1,1)]=1
+reaction_sureactif[(1,0)]=1
+reaction_sureactif[(1,-1)]=0
+reaction_sureactif[(0,3)]=2
+reaction_sureactif[(0,2)]=1
+reaction_sureactif[(0,1)]=0
+reaction_sureactif[(0,0)]=0
+
+
+#dictionnaire copieur
+reaction_copieur={}
+reaction_copieur[(3,-2)]=1
+reaction_copieur[(3,-1)]=2
+reaction_copieur[(3,0)]=3
+reaction_copieur[(3,-3)]=0
+reaction_copieur[(2,-1)]=1
+reaction_copieur[(2,1)]=3
+reaction_copieur[(2,0)]=2
+reaction_copieur[(2,-2)]=0
+reaction_copieur[(1,2)]=3
+reaction_copieur[(1,1)]=2
+reaction_copieur[(1,0)]=1
+reaction_copieur[(1,-1)]=0
+reaction_copieur[(0,3)]=3
+reaction_copieur[(0,2)]=2
+reaction_copieur[(0,1)]=1
+reaction_copieur[(0,0)]=0
+
+
+class Voiture:
+    def __init__(self, vitesse, conducteur,lastmove,currentmove,special=None):
+        self.postion = 0
+        self.conducteur = None
+        self.lastmove = 3
+        self.currentmove = 3
+        self.special = special
+        
+
+def creer_monde(taille, pourcentage_voitures, pourcentage_de_copieur):
+    monde = [None] * taille
+    nombre_voiture = int(taille * pourcentage_voitures)
+    position_aletoire = []
+    
+    
+    # Calculer l'espacement entre les voitures
+    espacement = taille // (nombre_voiture)
+    
+    # Placer les voitures avec un espacement équivalent
+    for i in range(nombre_voiture):
+        position = i * espacement  # Calculer la position en fonction de l'espacement
+        monde[position] = Voiture(i,None,3,3)  # Créer une voiture avec une vitesse de 5
+        position_aletoire.append(position)
+        
+    monde[random.choice(position_aletoire)] = Voiture(3,None,3,3,True)
+    
+    nombre_voiture_copieur = 0
+    proportion_copieur = nombre_voiture_copieur/len(position_aletoire)
+    
+    for i in position_aletoire :
+        if proportion_copieur < pourcentage_de_copieur :
+            monde[i].conducteur = "copieur"
+            nombre_voiture_copieur += 1
+        else :
+            monde[i].conducteur = "sureactif"
+        
+        proportion_copieur = nombre_voiture_copieur/len(position_aletoire)
+
+    
+    return monde
+
+
+def deplacement(monde)
+        
+
+monde_cree = creer_monde(20, 0.5, 0.5)
+print("État initial du monde:")
+for i, voiture in enumerate(monde_cree):
+    if voiture is not None:
+        print(f"Position {i}: Position: {voiture.vitesse}, Conducteur: {voiture.conducteur}")
+    else:
+        print(f"Position {i}: Vide")
+
+
+
+
+
+
+
+
