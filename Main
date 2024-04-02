@@ -4,40 +4,40 @@ import random
 reaction_sureactif={}
 reaction_sureactif[(3,0)]=3
 reaction_sureactif[(3,-1)]=1
-reaction_sureactif[(3,-2)]=0
-reaction_sureactif[(3,-3)]=0
-reaction_sureactif[(2,1)]=2
+reaction_sureactif[(3,-2)]=
+reaction_sureactif[(3,-3)]=
+reaction_sureactif[(2,1)]=
 reaction_sureactif[(2,0)]=2
-reaction_sureactif[(2,-1)]=0
-reaction_sureactif[(2,-2)]=0
-reaction_sureactif[(1,2)]=2
-reaction_sureactif[(1,1)]=1
+reaction_sureactif[(2,-1)]=
+reaction_sureactif[(2,-2)]=
+reaction_sureactif[(1,2)]=
+reaction_sureactif[(1,1)]=
 reaction_sureactif[(1,0)]=1
-reaction_sureactif[(1,-1)]=0
-reaction_sureactif[(0,3)]=2
-reaction_sureactif[(0,2)]=1
-reaction_sureactif[(0,1)]=0
+reaction_sureactif[(1,-1)]=
+reaction_sureactif[(0,3)]=
+reaction_sureactif[(0,2)]=
+reaction_sureactif[(0,1)]=
 reaction_sureactif[(0,0)]=0
 
 
 #dictionnaire copieur
 reaction_copieur={}
+reaction_copieur[(3,-3)]=0
 reaction_copieur[(3,-2)]=1
 reaction_copieur[(3,-1)]=2
 reaction_copieur[(3,0)]=3
-reaction_copieur[(3,-3)]=0
-reaction_copieur[(2,-1)]=1
-reaction_copieur[(2,1)]=3
-reaction_copieur[(2,0)]=2
 reaction_copieur[(2,-2)]=0
-reaction_copieur[(1,2)]=3
-reaction_copieur[(1,1)]=2
-reaction_copieur[(1,0)]=1
+reaction_copieur[(2,-1)]=1
+reaction_copieur[(2,0)]=2
+reaction_copieur[(2,1)]=3
 reaction_copieur[(1,-1)]=0
-reaction_copieur[(0,3)]=3
-reaction_copieur[(0,2)]=2
-reaction_copieur[(0,1)]=1
+reaction_copieur[(1,0)]=0
+reaction_copieur[(1,1)]=2
+reaction_copieur[(1,2)]=3
 reaction_copieur[(0,0)]=0
+reaction_copieur[(0,1)]=1
+reaction_copieur[(0,2)]=2
+reaction_copieur[(0,3)]=3
 
 
 class Voiture:
