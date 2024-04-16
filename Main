@@ -108,14 +108,14 @@ def deplacement(monde,vitesse,taille):
             temp_last = elem.lastmove
         
         else:
-            elem.lastmove = elem.current
-            elem.current = elem.current - temp_last
-            if elem.conducteur == "copieur":
-                elem.position = (elem.position + reaction_copieur[(elem.lastmove, elem.current)]) % taille+1
-            elif elem.conducteur == "sureactif":
-                elem.position = (elem.position + reaction_sureactif[(elem.lastmove, elem.current)]) % taille+1
+            elem.lastmove = elem.currentmove
+            elem.currentmove = elem.currentmove - temp_last
+            if elem.conducteur == "C":
+                elem.position = (elem.position + reaction_copieur[(elem.lastmove, elem.currentmove)]) % taille+1
+            elif elem.conducteur == "S":
+                elem.position = (elem.position + reaction_sureactif[(elem.lastmove, elem.currentmove)]) % taille+1
             else:
-                elem.position = (elem.position + reaction_passif[(elem.lastmove, elem.current)]) % taille+1
+                elem.position = (elem.position + reaction_passif[(elem.lastmove, elem.currentmove)]) % taille+1
             
             temp_last = elem.lastmove
     
