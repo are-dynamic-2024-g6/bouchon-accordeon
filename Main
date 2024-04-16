@@ -103,7 +103,7 @@ def deplacement(monde,vitesse,taille):
     for elem in reversed(monde):
         
         if elem.special == "special":
-            elem.position = (elem.position + vitesse) % taille+1
+            elem.position = (elem.position + vitesse) % taille
             elem.lastmove = vitesse
             temp_last = elem.lastmove
         
@@ -111,11 +111,11 @@ def deplacement(monde,vitesse,taille):
             elem.lastmove = elem.currentmove
             elem.currentmove = elem.currentmove - temp_last
             if elem.conducteur == "C":
-                elem.position = (elem.position + reaction_copieur[(elem.lastmove, elem.currentmove)]) % taille+1
+                elem.position = (elem.position + reaction_copieur[(elem.lastmove, elem.currentmove)]) % taille
             elif elem.conducteur == "S":
-                elem.position = (elem.position + reaction_sureactif[(elem.lastmove, elem.currentmove)]) % taille+1
+                elem.position = (elem.position + reaction_sureactif[(elem.lastmove, elem.currentmove)]) % taille
             else:
-                elem.position = (elem.position + reaction_passif[(elem.lastmove, elem.currentmove)]) % taille+1
+                elem.position = (elem.position + reaction_passif[(elem.lastmove, elem.currentmove)]) % taille
             
             temp_last = elem.lastmove
     
