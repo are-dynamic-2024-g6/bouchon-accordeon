@@ -73,29 +73,46 @@ def creer_monde(taille, pourcentage_voitures, pourcentage_de_copieur,pourcentage
     
     return monde
 monde_cree = creer_monde(20, 0.5, 0.5,0.5)
-
-print("État initial du monde:")
-for i, voiture in enumerate(monde_cree):
-    if voiture is not None:
-        print(f"Position {i}: {voiture.position}, {voiture.conducteur}, {voiture.lastmove}, {voiture.currentmove}, {voiture.special}")
-    else:
-        print(f"Position {i}: Vide")
         
 
 
-def deplacement(monde)
+def deplacement(monde,vitesse,taille):
+    temp_last = 0 
+    
+    for elem in reversed(monde):
         
+        if elem.special == "special":
+            elem.position = (elem.position + vitesse) % taille+1
+            elem.lastmove = vitesse
+            temp_last = elem.lastmove
+        
+        else:
+            elem.lastmove = elem.current
+            elem.current = elem.current - temp_last
+            if elem.conducteur == "copieur":
+                elem.position = (elem.position + reaction_copieur[(elem.lastmove, elem.current)]) % taille+1
+            elif elem.conducteur == "sureactif":
+                elem.position = (elem.position + reaction_sureactif[(elem.lastmove, elem.current)]) % taille+1
+            else:
+                elem.position = (elem.position + reaction_passif[(elem.lastmove, elem.current)]) % taille+1
+            
+            temp_last = elem.lastmove
+    
+    return monde
 
-monde_cree = creer_monde(20, 0.5, 0.5)
-print("État initial du monde:")
-for i, voiture in enumerate(monde_cree):
-    if voiture is not None:
-        print(f"Position {i}: Position: {voiture.vitesse}, Conducteur: {voiture.conducteur}")
-    else:
-        print(f"Position {i}: Vide")
 
-
-
+def afficher(monde,taille) :
+    
+    temp_monde = [None]*taille
+    for elem in monde :
+        temp_monde[elem.position] = elem          
+    
+    print("État du monde:")
+    for i, voiture in enumerate(temp_monde):
+        if voiture is not None:
+            print(f"Position {i}: {voiture.position}, {voiture.conducteur}, {voiture.lastmove}, {voiture.currentmove}, {voiture.special}")
+        else:
+            print(f"Position {i}: Vide")
 
 
 
