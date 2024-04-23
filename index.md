@@ -1,3 +1,5 @@
+@import "{{pages-themes/merlot@v0.2.0}}";
+
 # Bouchon accordéon
 
 Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
