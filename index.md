@@ -2,6 +2,9 @@
 
 Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
 
+![test](https://vivreparis.fr/wp-content/uploads/2019/06/bouchon-paris.jpg)
+
+
 ## English version
 
 Un titre et un résumé en anglais qui reprennent le titre et le résumé en français, mais en anglais pour attirer une audience internationale sur vos travaux !
