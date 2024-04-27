@@ -1,141 +1,139 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Apr 16 14:00:09 2024
+
+@author: wassi
+"""
 import random
 
+reaction_copieur = {
+    (0, 0): 0, (0, 1): 1, (0, 2): 2, (0, 3): 3, (0, 4): 4, (0, 5): 5,
+    (1, -1): 0, (1, 0): 1, (1, 1): 2, (1, 2): 3, (1, 3): 4, (1, 4): 5,
+    (2, -2): 0, (2, -1): 1, (2, 0): 2, (2, 1): 3, (2, 2): 4, (2, 3): 5,
+    (3, -3): 0, (3, -2): 1, (3, -1): 2, (3, 0): 3, (3, 1): 4, (3, 2): 5,
+    (4, -4): 0, (4, -3): 1, (4, -2): 2, (4, -1): 3, (4, 0): 4, (4, 1): 5,
+    (5, -5): 0, (5, -4): 1, (5, -3): 2, (5, -2): 3, (5, -1): 4, (5, 0): 5
+}
 
-#dictionnaire suréactif
-reaction_sureactif={}
-reaction_sureactif[(3,0)]=3
-reaction_sureactif[(3,-1)]=1
-reaction_sureactif[(3,-2)]=0
-reaction_sureactif[(3,-3)]=0
-reaction_sureactif[(2,1)]=2
-reaction_sureactif[(2,0)]=2
-reaction_sureactif[(2,-1)]=0
-reaction_sureactif[(2,-2)]=0
-reaction_sureactif[(1,2)]=2
-reaction_sureactif[(1,1)]=1
-reaction_sureactif[(1,0)]=1
-reaction_sureactif[(1,-1)]=0
-reaction_sureactif[(0,3)]=2
-reaction_sureactif[(0,2)]=1
-reaction_sureactif[(0,1)]=0
-reaction_sureactif[(0,0)]=0
+reaction_prudent = {
+    (0, 0): [0], (0, 1): [0,1], (0, 2):[1,2] , (0, 3): [2,3], (0, 4): [3,4], (0, 5): [4,5],
+    (1, -1): [0], (1, 0): [0,1], (1, 1): [1,2], (1, 2): [2,3], (1, 3): [3,4], (1, 4): [4,5],
+    (2, -2): [0], (2, -1): [0,1], (2, 0): [1,2], (2, 1): [2,3], (2, 2): [3,4], (2, 3): [4,5],
+    (3, -3): [0], (3, -2): [0,1], (3, -1): [1,2], (3, 0): [2,3], (3, 1): [3,4], (3, 2): [4,5],
+    (4, -4): [0], (4, -3): [0,1], (4, -2): [1,2], (4, -1): [2,3], (4, 0): [3,4], (4, 1): [4,5],
+    (5, -5): [0], (5, -4): [0,1], (5, -3): [1,2], (5, -2): [2,3], (5, -1): [3,4], (5, 0): [4,5]
+}
 
 
-#dictionnaire copieur
-reaction_copieur={}
-reaction_copieur[(3,-2)]=1
-reaction_copieur[(3,-1)]=2
-reaction_copieur[(3,0)]=3
-reaction_copieur[(3,-3)]=0
-reaction_copieur[(2,-1)]=1
-reaction_copieur[(2,1)]=3
-reaction_copieur[(2,0)]=2
-reaction_copieur[(2,-2)]=0
-reaction_copieur[(1,2)]=3
-reaction_copieur[(1,1)]=2
-reaction_copieur[(1,0)]=1
-reaction_copieur[(1,-1)]=0
-reaction_copieur[(0,3)]=3
-reaction_copieur[(0,2)]=2
-reaction_copieur[(0,1)]=1
-reaction_copieur[(0,0)]=0
 
 
-#dictionnaire passif
-reaction_passif={}
-reaction_passif[(3,-3)]=1
-reaction_passif[(3,-2)]=2
-reaction_passif[(3,-1)]=3
-reaction_passif[(3,0)]=3
-reaction_passif[(2,-2)]=1
-reaction_passif[(2,-1)]=2
-reaction_passif[(2,0)]=2
-reaction_passif[(2,1)]=2
-reaction_passif[(1,-1)]=1
-reaction_passif[(1,0)]=1
-reaction_passif[(1,1)]=1
-reaction_passif[(1,2)]=2
-reaction_passif[(0,0)]=0
-reaction_passif[(0,1)]=1
-reaction_passif[(0,2)]=1
-reaction_passif[(0,3)]=2
 
 
 class Voiture:
-    def __init__(self, position = None, conducteur = None, lastmove = 0 , currentmove = 3 ,  special = None ):
+    def __init__(self, position = None, conducteur = None, name = None , currentmove = 0  ):
         self.position = position
         self.conducteur = conducteur
-        self.lastmove = lastmove
         self.currentmove = currentmove
-        self.special = special
+        self.name = name
 
 
 
-def creer_monde(taille, pourcentage_voitures, pourcentage_de_copieur,pourcentage_de_passif):
+def creer_monde(taille, pourcentage_voitures, pourcentage_de_copieur):
     monde = []
+    classe_voiture = []
     nombres_voitures = int(taille * pourcentage_voitures) 
     espacement = taille // nombres_voitures
     cptnbcopieur=0
-    cptnbpassif=0
     
     for i in range(nombres_voitures):
         
         if cptnbcopieur/nombres_voitures < pourcentage_de_copieur:
-            monde.append(Voiture(i*espacement,"C"))
+            monde.append(Voiture(i*espacement,"C", "V" + str((nombres_voitures-1) - i)))
+            classe_voiture.append("C")
             cptnbcopieur +=1
             
-        elif cptnbpassif/nombres_voitures <= pourcentage_de_passif:
-            monde.append(Voiture(i*espacement,"P"))
-            cptnbpassif += 1
-            
         else :
-            monde.append(Voiture(i*espacement,"S"))
+            monde.append(Voiture(i*espacement,"P","V" + str((nombres_voitures-1) - i)))
+            classe_voiture.append("P")
         
     
+    for elem in monde:
+        elem.conducteur = random.choice(classe_voiture)
+        classe_voiture.pop(classe_voiture.index(elem.conducteur))
+    
+    
+    monde[-1].conducteur = "SPECIAL"
+    
     return monde
-monde_cree = creer_monde(20, 0.5, 0.5,0.5)
         
 
 
 def deplacement(monde,vitesse,taille):
     temp_last = 0 
+    distance = 0
     
     for elem in reversed(monde):
         
-        if elem.special == "special":
-            elem.position = (elem.position + vitesse) % taille
-            elem.lastmove = vitesse
-            temp_last = elem.lastmove
+        
+        if elem.conducteur == "SPECIAL":
+            
+            if elem.position < monde[0].position:
+                distance = abs(monde[0].position - elem.position)
+            elif elem.position >= monde[0].position:
+                distance = abs((monde[0].position + taille) - elem.position)                
+            if vitesse > distance:
+                elem.currentmove = (distance - 1)
+                
+            else :
+               elem.currentmove = vitesse
+        
+            temp_last = elem.currentmove
+            elem.position = (elem.position + elem.currentmove) % taille
+
         
         else:
-            elem.lastmove = elem.currentmove
-            elem.currentmove = elem.currentmove - temp_last
             if elem.conducteur == "C":
-                elem.position = (elem.position + reaction_copieur[(elem.lastmove, elem.currentmove)]) % taille
-            elif elem.conducteur == "S":
-                elem.position = (elem.position + reaction_sureactif[(elem.lastmove, elem.currentmove)]) % taille
-            else:
-                elem.position = (elem.position + reaction_passif[(elem.lastmove, elem.currentmove)]) % taille
+                elem.currentmove = reaction_copieur[(elem.currentmove, temp_last - elem.currentmove)]
+                elem.position = (elem.position + elem.currentmove) % taille
+
+            elif elem.conducteur == "P":
+                elem.currentmove = random.choice(reaction_prudent[(elem.currentmove, temp_last - elem.currentmove)])
+                elem.position = (elem.position + elem.currentmove) % taille
             
-            temp_last = elem.lastmove
+            
+            temp_last = elem.currentmove
     
     return monde
+
+
+
 
 
 def afficher(monde,taille) :
     
     temp_monde = [None]*taille
+    print("Position du Monde")
     for elem in monde :
-        temp_monde[elem.position] = elem          
+        temp_monde[elem.position] = elem 
+        print(f"{elem.position}, {elem.name}")         
     
     print("État du monde:")
     for i, voiture in enumerate(temp_monde):
         if voiture is not None:
-            print(f"Position {i}: {voiture.position}, {voiture.conducteur}, {voiture.lastmove}, {voiture.currentmove}, {voiture.special}")
+            print(f"Position {i}: {voiture.position}, {voiture.conducteur},{voiture.name}, {voiture.currentmove}")
         else:
             print(f"Position {i}: Vide")
+    
+   
+            
+monde_cree = creer_monde(30, 0.5, 0.0)
 
 
+for i in range(5):
+    afficher(monde_cree, 30)
+    
+    monde_cree = deplacement(monde_cree, 4 , 30)
 
 
-
+    
+    
