@@ -14,18 +14,17 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 
 ## Présentation de l'équipe
 
-|(´・ω・｀)| ( ͡° ͜ʖ ͡°) | ಠ_ಠ | ᕕ( ᐛ )ᕗ |
-|-----|--|--|--|
-| P. Bismuth| J. Doe | A. Onyme  | N. Nescio  |
+
+| GHRAB Wassim  | DERRIDJ Asma |  | N. Nescio  |
 
 
 ## Description synthétique du projet
 
 **Problématique :
-Comment les caractéristiques des véhicules et les interactions entre eux influencent-elles la formation et la propagation des bouchons  ?
+Comment les caractéristiques  des véhicules et les interactions entre eux influencent-elles la formation et la propagation des bouchons  ?
 
 **Hypothèse principale :
-    Vitesse du véhicule  : 
+    difference de Vitesse du véhicule  : 
 Lorsqu'une ou plusieurs voitures changent de vitesse de manière significative, cela entraîne la formation de bouchons de circulation.
 
     Densité du trafic : 
@@ -34,26 +33,27 @@ Une densité de trafic plus élevée entraîne une probabilité accrue de boucho
 
 
 **Hypothèses secondaires :
-
+       Le type des conducteurs entre les copieurs et les conducteurs avec ddes vitesses aléatoires sans avoir dépasser la distance entre des deux voitures 
     
 
 **Objectifs :
 
-    Étudier la formation et la propagation des bouchons de circulation sur un anneau à voie unique, en prenant en compte différents paramètres
+    Étudier la formation et la propagation des bouchons de circulation sur un anneau à voie unique, en prenant en compte différents paramètres.
 
 
 
 **Critère(s) d'évaluation :
+
 Afin de tester notre code et nos fonctions ,on met en place les métriques et les paramétres suivants :
       Les métriques :
 
-    Densité du trafic : La densité du trafic sur l'anneau, exprimée en véhicules par unité de longueur de la voie.
+Nombre de bouchons formés : 
 
-Vitesse moyenne : La vitesse moyenne des véhicules circulant sur l'anneau à un moment donné.
-
-Temps de parcours : Le temps moyen nécessaire à un véhicule pour parcourir l'ensemble de l'anneau.
+L'écart type entre les voitures : 
 
 Taux d'arrêt : Le pourcentage de temps pendant lequel un véhicule est complètement arrêté.
+
+
 
 
     Les paramètres:
