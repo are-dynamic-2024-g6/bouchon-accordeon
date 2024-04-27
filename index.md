@@ -53,23 +53,16 @@ L'écart type entre les voitures :
 
 Taux d'arrêt : Le pourcentage de temps pendant lequel un véhicule est complètement arrêté.
 
+wassim a suggéré plus on met des gbens dee different claqsse avec des differntes vitesses on crée des bouchons 
+pl;us la vitesse de la voiture spec varie plus il y'a une apparition de bouchons  spéciale 
 
-
-
+un peu de passif ça 
     Les paramètres:
-
-Nombre de véhicules : La quantité de véhicules présents sur l'anneau à un moment donné, influençant la densité du trafic.
-
-Vitesse maximale des véhicules : La vitesse maximale autorisée pour les véhicules sur l'anneau.
-
-Accélération et décélération des véhicules : La capacité des véhicules à accélérer et décélérer, affectant leur capacité à s'adapter aux changements de vitesse du trafic.
-
-Distances de sécurité : La distance minimale entre les véhicules pour éviter les collisions.
-
-Longueur de l'anneau : La longueur totale de la voie sur laquelle les véhicules circulent.
-
-Distribution des types de véhicules : La répartition des différents types de véhicules (voitures, camions, motos, etc.) sur l'anneau, chacun ayant ses propres caractéristiques de vitesse et de comportement.
-
+    la taille du monde 
+    le pourcentage des copieurs 
+    le pourcentage de voitures dans l'anneau 
+    les types des conducteurs
+    
 
 
 ## Présentation structurée des résultats
