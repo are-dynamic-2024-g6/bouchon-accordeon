@@ -9,13 +9,16 @@ L'objectif principal de cette étude est de déterminer les causes sous-jacentes
 
 
 ## English version
+					Accordion stopper :
+     
+- Traffic jams represent a major challenge in the management of urban road infrastructure. Understanding the mechanisms that cause them is essential to developing effective solutions. As part of this project, we focused on creating an experimental model to study the factors contributing to traffic jams, with a particular emphasis on the role of car traffic jams.
+The main objective of this study is to determine the underlying causes of traffic jams by simulating a controlled road environment. To do this, we set up an experimental road ring with a single lane, allowing traffic disruptions to be observed and analyzed.
 
-Un titre et un résumé en anglais qui reprennent le titre et le résumé en français, mais en anglais pour attirer une audience internationale sur vos travaux !
 
 ## Présentation de l'équipe
 
 
-| GHRAB Wassim  | DERRIDJ Asma |  | N. Nescio  |
+| GHRAB Wassim  | DERRIDJ Asma |  Zeyuan chen | Jason Poyet Genel |
 
 
 ## Description synthétique du projet
@@ -23,49 +26,55 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 **Problématique :
 Comment les caractéristiques  des véhicules et les interactions entre eux influencent-elles la formation et la propagation des bouchons  ?
 
+
+"Comment concevoir un modèle expérimental pour induire et étudier les embouteillages sur un anneau routier, en identifiant les facteurs clés qui influent sur la formation et la propagation de ces embouteillages ?
+
 **Hypothèse principale :
-    difference de Vitesse du véhicule  : 
+   + difference de Vitesse du véhicule  : 
 Lorsqu'une ou plusieurs voitures changent de vitesse de manière significative, cela entraîne la formation de bouchons de circulation.
 
-    Densité du trafic : 
+   + Densité du trafic : 
 Une densité de trafic plus élevée entraîne une probabilité accrue de bouchons, en raison de la proximité accrue entre les véhicules et des réactions en chaîne aux ralentissements.
 
 
 
 **Hypothèses secondaires :
-       Le type des conducteurs entre les copieurs et les conducteurs avec ddes vitesses aléatoires sans avoir dépasser la distance entre des deux voitures 
+     -  Le type des conducteurs qui se varient entre les copieurs et les conducteurs avec des vitesses aléatoires sans avoir dépassé la distance entre les deux voitures 
     
 
 **Objectifs :
 
-    Étudier la formation et la propagation des bouchons de circulation sur un anneau à voie unique, en prenant en compte différents paramètres.
+   - Étudier la formation et la propagation des bouchons de circulation sur un anneau à voie unique, en prenant en compte différents paramètres.
 
 
 
 **Critère(s) d'évaluation :
 
-Afin de tester notre code et nos fonctions ,on met en place les métriques et les paramétres suivants :
+* Afin de tester notre code et nos fonctions ,on met en place les métriques et les paramétres suivants :
+      
       Les métriques :
+      
+- Nombre de bouchons formés 
 
-Nombre de bouchons formés : 
+- L'écart type entre les voitures , c'est à dire que plus la distance entre les deux voitures s'augmente plus la vitesse augmente .
 
-L'écart type entre les voitures : 
+- Taux d'arrêt : Le pourcentage de temps pendant lequel un véhicule est complètement arrêté.
 
-Taux d'arrêt : Le pourcentage de temps pendant lequel un véhicule est complètement arrêté.
 
-wassim a suggéré plus on met des gbens dee different claqsse avec des differntes vitesses on crée des bouchons 
-pl;us la vitesse de la voiture spec varie plus il y'a une apparition de bouchons  spéciale 
+**Les paramètres :
 
-un peu de passif ça 
-    Les paramètres:
-    la taille du monde 
-    le pourcentage des copieurs 
-    le pourcentage de voitures dans l'anneau 
-    les types des conducteurs
+   - la taille du monde .
+   - le pourcentage des copieurs .
+   - le pourcentage de voitures dans l'anneau .
+   - les types des conducteurs .
     
 
 
 ## Présentation structurée des résultats
+wassim a suggéré plus on met des gbens dee different claqsse avec des differntes vitesses on crée des bouchons 
+pl;us la vitesse de la voiture spec varie plus il y'a une apparition de bouchons  spéciale 
+
+un peu de passif ça 
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 
