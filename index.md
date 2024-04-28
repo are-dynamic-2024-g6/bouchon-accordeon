@@ -24,10 +24,8 @@ The main objective of this study is to determine the underlying causes of traffi
 ## Description synthétique du projet
 
 **Problématique :
-Comment les caractéristiques  des véhicules et les interactions entre eux influencent-elles la formation et la propagation des bouchons  ?
+Comment la vitesse et les types des conducteurs et puis les interactions des véhicules entre eux influencent-elles la formation et la propagation des bouchons  ?
 
-
-"Comment concevoir un modèle expérimental pour induire et étudier les embouteillages sur un anneau routier, en identifiant les facteurs clés qui influent sur la formation et la propagation de ces embouteillages ?
 
 **Hypothèse principale :
    + difference de Vitesse du véhicule  : 
