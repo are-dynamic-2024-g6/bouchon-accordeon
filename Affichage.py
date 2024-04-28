@@ -1,7 +1,7 @@
 import pygame
 import sys
 import math
-
+import time
 
 pygame.init()
 
@@ -18,6 +18,8 @@ RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 YELLOW = (255, 255, 0)
 ORANGE = (255, 165, 0)
+
+font = pygame.font.SysFont(None, 30)
 
 RADIUS = 200
 ROAD_WIDTH = 50
@@ -76,25 +78,31 @@ clock = pygame.time.Clock()
 zoom = 1.0  # Facteur de zoom initial
 
 # Exemple de création de voitures avec des positions aléatoires
-cars = [Voiture(position=i) for i in range(100)]  # Liste de voitures avec des positions de 0 à 19
+cars = [Voiture(position=i) for i in range(50)]  # Liste de voitures avec des positions de 0 à 19
 
-while running:
+while running: 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
         elif event.type == pygame.MOUSEBUTTONDOWN:
             if event.button == 4:# Molette de la souris vers le haut (zoom in)
-             
                 zoom *= 1.1
             elif event.button == 5:  # Molette de la souris vers le bas (zoom out)
                 zoom /= 1.1
-    
-    screen.fill(WHITE)
-    draw_circle(screen, 100 * zoom )  # Appel de la fonction pour dessiner le cercle avec une épaisseur
-    draw_cars_on_circle(screen, cars, zoom,100)  # Dessiner les voitures sur le cercle avec le zoom
-    pygame.display.flip()
+    for i in range(1,6):
+        screen.fill(WHITE)
+        draw_circle(screen, 50 * zoom )  # Appel de la fonction pour dessiner le cercle avec une épaisseur
+        draw_cars_on_circle(screen, cars, zoom,50)# Dessiner les voitures sur le cercle avec le zoom
+        run_text = font.render(f"Run: {i}", True, (0, 0, 0))
+        screen.blit(run_text, (10, 10))
+        pygame.display.flip()
+        clock.tick(60)
+        time.sleep(5)
 
-    clock.tick(60)
+
+
+
+ 
 
 pygame.display.quit()
 pygame.quit()
