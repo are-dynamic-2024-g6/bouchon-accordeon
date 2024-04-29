@@ -56,18 +56,17 @@ def creer_monde(taille, pourcentage_voitures, pourcentage_de_copieur):
     monde = []
     classe_voiture = []
     nombres_voitures = int(taille * pourcentage_voitures) 
-    espacement = taille // nombres_voitures
     cptnbcopieur=0
     
     for i in range(nombres_voitures):
         
         if cptnbcopieur/nombres_voitures < pourcentage_de_copieur:
-            monde.append(Voiture(i*espacement,"C", "V" + str((nombres_voitures-1) - i)))
+            monde.append(Voiture(i,"C", "V" + str((nombres_voitures-1) - i)))
             classe_voiture.append("C")
             cptnbcopieur +=1
             
         else :
-            monde.append(Voiture(i*espacement,"P","V" + str((nombres_voitures-1) - i)))
+            monde.append(Voiture(i,"P","V" + str((nombres_voitures-1) - i)))
             classe_voiture.append("P")
         
     
@@ -184,13 +183,12 @@ def draw_cars_on_circle(screen, cars, zoom,size):
 running = True
 clock = pygame.time.Clock()
 zoom = 1.0  # Facteur de zoom initial
-taille=50
-pourcentage_voitures=0.6
+taille=80
+pourcentage_voitures=0.4
 pourcentage_de_copieur=0.5
 monde_cree = creer_monde(taille, pourcentage_voitures, pourcentage_de_copieur)
 cars = [Voiture(position=voiture.position, conducteur=voiture.conducteur, name=voiture.name) for voiture in monde_cree]
 sequence = generer_sequence_vitesses(5)
-# Exemple de création de voitures avec des positions aléatoires
 
 while running: 
     for event in pygame.event.get():
@@ -255,3 +253,4 @@ clock.tick(60)
 pygame.display.quit()
 pygame.quit()
 sys.exit()
+
