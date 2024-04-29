@@ -79,7 +79,7 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20nombre%20bouchon%20part%201.png)
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20nombre%20bouchon%20part%202.png)
 
-
+On déduit des graphiques ci-dessus que peu importe la densité du traffic (taux de voitures), lorsque que le taux de copieurs est inférieur au taux de prudents (O.4 copieur = 0.6 prudent), il ne s'y formera qu'un seul bouchon. Mais dès que le taux de copieurs dépassera celui de prudents (même un peu avant pour le taux de voitures équivalent à 0.3), bien plus de bouchons se formeront, de l'ordre de 
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
