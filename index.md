@@ -14,7 +14,7 @@ L'objectif principal de cette étude est de déterminer les causes sous-jacentes
 - Traffic jams represent a major challenge in the management of urban road infrastructure. Understanding the mechanisms that cause them is essential to developing effective solutions. As part of this project, we focused on creating an experimental model to study the factors contributing to traffic jams, with a particular emphasis on the role of car traffic jams.
 The main objective of this study is to determine the underlying causes of traffic jams by simulating a controlled road environment. To do this, we set up an experimental road ring with a single lane, allowing traffic disruptions to be observed and analyzed.
 
-![test](<img width="640" alt="image" src="https://github.com/are-dynamic-2024-g6/bouchon-accordeon/assets/159928048/5d89d3d4-116f-4117-a0b9-aaeaca3c9fc8">)
+![result](<img width="640" alt="image" src="https://github.com/are-dynamic-2024-g6/bouchon-accordeon/assets/159928048/5d89d3d4-116f-4117-a0b9-aaeaca3c9fc8">)
 
 
 
