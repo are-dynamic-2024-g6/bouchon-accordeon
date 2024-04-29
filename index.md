@@ -74,12 +74,24 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
 
     
 
-
 ## Présentation structurée des résultats
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20nombre%20bouchon%20part%201.png)
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20nombre%20bouchon%20part%202.png)
 
-On déduit des graphiques ci-dessus que peu importe la densité du traffic (taux de voitures), lorsque que le taux de copieurs est inférieur au taux de prudents (O.4 copieur = 0.6 prudent), il ne s'y formera qu'un seul bouchon. Mais dès que le taux de copieurs dépassera celui de prudents (même un peu avant pour le taux de voitures équivalent à 0.8), bien plus de bouchons se formeront, de l'ordre de 2 à 6 bouchons différents en fonction de la densité du traffic
+On déduit des graphiques ci-dessus que peu importe la densité du traffic (taux de voitures), lorsque que le taux de copieurs est inférieur au taux de prudents (O.4 copieur = 0.6 prudent), il ne s'y formera qu'un seul bouchon car les prudents ne se rattrapent pas assez pour en former plus. Mais dès que le taux de copieurs dépassera celui de prudents (même un peu avant pour le taux de voitures équivalent à 0.8), bien plus de bouchons se formeront car les copieurs eux, rattrapent petit à petit les prudents, de l'ordre de 2 à 6 bouchons différents en fonction de la densité du traffic. Tout ça avant de redescendre jusqu'à un seul et unique bouchon lorsque l'anneau n'est composé que de copieurs car à force de copier les mouvements de celui en face, personne ne rattrapera personne, si ce n'est la voiture spéciale, qui forme donc, en rattrapant la voiture devant elle, le seul bouchon observé.
+
+
+![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20pourcentage%20arret%20part%201.png)
+![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20pourcentage%20arret%20part%202.png)
+
+Texte
+
+![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20distance%20moyennne%20part%201.png)
+![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20distance%20moyenne%20part%202.png)
+
+Texte
+
+
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
