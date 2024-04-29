@@ -27,20 +27,21 @@ The main objective of this study is to determine the underlying causes of traffi
 ## Description synthétique du projet
 
 **Problématique :
-Comment la vitesse, les types des conducteurs ainsi que les interactions des véhicules entre eux influencent-ils la formation et la propagation des bouchons  ?
+Comment certaines caractéristiques des véhicules et des conducteurs, ainsi que les interactions des véhicules entre eux influencent-ils la formation et la propagation des bouchons  ?
 
 
-**Hypothèse principale :
-   + Différence de Vitesse du véhicule  : 
-Lorsqu'une ou plusieurs voitures changent de vitesse de manière significative, cela entraîne la formation de bouchons de circulation.
+**Hypothèses principales :
+   + Différence de Vitesse du Véhicule  : 
+Lorsqu'une ou plusieurs voitures changent de vitesse de manière significative, cela entraîne la formation de bouchons dans la circulation.
 
-   + Densité du trafic : 
-Une densité de trafic plus élevée entraîne une probabilité accrue de bouchons, en raison de la proximité accrue entre les véhicules et des réactions en chaîne aux ralentissements.
+   + Comportement des Conducteurs : 
+Les conducteurs peuvent réagir différement fasse à une formation de bouchon, en fonction de leur comportement.
 
 
 
-**Hypothèses secondaires :
-     -  Le type des conducteurs qui se varient entre les copieurs et les conducteurs avec des vitesses aléatoires sans avoir dépassé la distance entre les deux voitures 
+**Hypothèse secondaire :
+   +  La densité du traffic :
+S'il y a plus ou moins de voitures qui circulent sur la route.
     
 
 **Objectifs :
@@ -51,28 +52,31 @@ Une densité de trafic plus élevée entraîne une probabilité accrue de boucho
 
 **Critère(s) d'évaluation :
 
-* Afin de tester notre code et nos fonctions ,on met en place les métriques et les paramétres suivants :
+* Afin de tester notre code et nos fonctions ,on met en place les paramétres et les métriques suivants :
       
-      Les métriques :
-      
-- Nombre de bouchons formés 
-
-- L'écart type entre les voitures , c'est à dire que plus la distance entre les deux voitures s'augmente plus la vitesse augmente .
-
-- Taux d'arrêt : Le pourcentage de temps pendant lequel un véhicule est complètement arrêté.
-
-
 **Les paramètres :
 
    - la taille du monde .
    - le pourcentage des copieurs .
    - le pourcentage de voitures dans l'anneau .
    - les types des conducteurs .
+
+   
+   Les métriques :
+      
+- Nombre de bouchons formés : Nombre de groupe formés de voitures se suivant et roulant plus lentement qu'une vitesse fixée.
+
+- Distance moyenne entre les véhicules : La distance moyenne entre chaque véhicule de l'anneau routier.
+
+- Pourcentage d'arrêt : Le pourcentage de véhicules complètement arrêté (vitesse 0).
+
+
+
     
 
 
 ## Présentation structurée des résultats
-wassim a suggéré plus on met des gbens dee different claqsse avec des differntes vitesses on crée des bouchons 
+wassim a suggéré plus on met des gens de differentes classes avec diffrentes vitesses on crée des bouchons 
 plus la vitesse de la voiture spec varie plus il y'a une apparition de bouchons  spéciale 
 
 un peu de passif ça 
