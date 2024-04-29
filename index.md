@@ -89,7 +89,7 @@ Encore une fois, il n'y a presque pas de différences en fonction de la densité
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20distance%20moyennne%20part%201.png)
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20distance%20moyenne%20part%202.png)
 
-
+Dans ce dernier cas présent ci-dessus, pour une densité de traffic de 0.3, la distance moyenne entre les véhicules est élevée avant que le taux de copieurs ne dépassent 
 
 
 
