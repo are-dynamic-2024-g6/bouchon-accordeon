@@ -1,13 +1,12 @@
 ## Travail effectué 
 
-=> Description hebdomadaire du travail effectué (variez les auteurs !)
 ![bouchons accordéon ](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.leparisien.fr%2Finfo-paris-ile-de-france-oise%2Ftransports%2Fgrand-paris-le-matin-sur-lautoroute-67-de-votre-temps-de-trajet-se-passe-dans-les-bouchons-08-11-2022-U3ZLUH7XORG5VPAZSPVUMZQPHA.php&psig=AOvVaw05LmIy6fDx179hxN0z1FOG&ust=1714484667314000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjfvZ7H54UDFQAAAAAdAAAAABAE)
 ### Semaine 1  ### Semaine 2
 
 Durant ces deux semaines initiales, nous avons entamé le processus de sélection du thème de notre projet. Tout d'abord, nous avons organisé des sessions de brainstorming en groupe afin de générer des idées sur des problèmes liés aux embouteillages urbains. Après une discussion approfondie et après le thème des perturbations des transports en commun que nous avions présenté la première semaine, plus précisement le 27 février, et qui n'a pas été validé par notre prof, nous avons décidé de nous concentrer sur le phénomène des embouteillages, qui ressemble au thème précédent, mais qui est plus simple à modéliser, ces derniers sont causés par les bouchons en voitures, également connus sous le nom d'embouteillages accordéon. Une fois notre thème choisi, nous avons préparé une présentation détaillée que nous avons ensuite soumise au professeur pour validation. Après examen, le professeur a approuvé notre choix de thème, lançant ainsi officiellement notre projet.
 ### Semaine 3
 
-Au cours des cinq semaines suivantes, nous avons commencé à donner vie à notre projet en développant un modèle expérimental afin d'étudier les embouteillages accordéon. Notre première étape a été de mener une recherche bibliographique approfondie sur les embouteillages urbains et les modèles de simulation de la circulation existants.
+Au cours des cinq semaines suivantes, nous avons commencé à donner vie à notre projet en développant un modèle expérimental afin d'étudier les embouteillages accordéon. Notre première étape a été de mener une recherche bibliographique approfondie sur les embouteillages urbains et les modèles de simulation de la circulation existants et en premiére étape on avait fait la mise en place des automates .
 ### semaine 4
 
 Cette recherche nous a permis d'identifier les variables clées à prendre en compte dans notre modèle, et on en a déduit que pour comprendre les causes des embouteillages urbains, nous allions devoir créer des bouchons.
@@ -31,7 +30,22 @@ Les paramétres que nous avons pris en compte sont :
 Durant cet étude nous avons affronter plusieurs difficultés commençant par la fonction fondamentale "créer le monde" car on a du faire plusieurs modifications (prendre en compte un espace égal entre chaque voiture sinon on aura toujours des bouchons dés qu'on commence la simulation et puis on a rajouté un espacement dépendant de la taille du monde ,mélanger la classe des conducteurs en ajoutant les éléments au monde), ensuite on avait redmarqué que les automates posaient quelques difficultés car il fallait vraiment trouver des calculs cohérents afin que les bons couples de valeurs en ressortent, et puis on a commencé ensemble à s'occuper de la fonction "déplacement", qui sert à effectuer les mouvements réalisés par les voitures en fonction de nos paramètres dans le monde, au début cette fonction n'a pas posé de problèmes  mais on s'est rendu compte finalement qu'il y avait des voitures qui se dépassaient entre elles ensuite on a commencé à revoir le code et à la fin que v0(la voiture spéciale celle dont la vitesse varie ) était le probléme vue  qu'elle prenait pas en compte les voitures devant elle , ce qui provoquait des dépassements de sa part, or nous voulions créer une moide sans dépassements pour cela on devait modifier le code en prenant en compte la distance et en conséquence elle modifie sa vitesse en dependant des voitures devant elle autrement dit soit elle serait une copieuse ou une prudente et puis on teste ça en appelant la fonction déplassement la itesse est supérieure à la distance avec la voiture devant elle là la voiture va au maximum qu'elle peut aller et puis les voitures deriéres elle elles vont s'adapter toutes seules .
 
 ### semaine 6
-Bonjour à tous. Le stress inhérent à toute fin de projets m’oblige aujourd’hui à plus de sobriété dans ce compte rendu. En effet, la présentation approchant à grands pas, il ne nous reste que peu de temps pour tout mettre au point. Deux semaines, pour être précis. En d’autres termes, la rigolade, c’est terminé . Cette semaine on a fait des appels discord afin de compléter le code et valider les métriques finaux (nombres de bouchons formés ,équart type entre les voitures  pour qu'on puisse représebnter nos résultats en graphiques donc  on avait fini
+Bonjour à tous. Le stress inhérent à toute fin de projets m’oblige aujourd’hui à plus de sobriété dans ce compte rendu. En effet, la présentation approchant à grands pas, il ne nous reste que peu de temps pour tout mettre au point. Deux semaines, pour être précis. En d’autres termes, la rigolade, c’est terminé . Cette semaine on a fait des appels discord afin de compléter le code et valider les métriques finaux (nombres de bouchons formés ,équart type entre les voitures plus est grand plus il y'a un espace entre les voitures et si c'est égale à 0 cela veut dire que les voitures sonrt égales donc il y'a le meme espacement et puis en dernier le taux d'arret qui compte le pourcentage des voitures arretées )  pour qu'on puisse représebnter nos résultats en graphiques donc  on avait fait  la grande partie du code et on commence la maintenant 
+
+
+Dans le même temps, nous avons commencé l’écriture du rapport. Asma a fait la mise en page et elle a rédigé l’introduction ainsi que le résumé du projet. Nous nous somme réparti ensuite les différentes parties à rédiger. Nous avons convenu de rédiger ces parties chacun de notre côté pendant la semaine pour pouvoir discuter devant le rapport terminé la semaine prochaine . Nous faisons donc le maximum pour être dans les temps et espérons que tout se passera pour le mieux !
+
+A la semaine prochaine, pour un ultime épisode !
+
+### semaine 7 (LA DERNIERE SEMAINE)
+Bonjour, 
+Parallèlement au développement du modèle, une collaboration étroite entre les membres de l'équipe a été maintenue. Chaque semaine, nous nous sommes réunis pour discuter de l'avancement du projet, répartir les tâches et résoudre les problèmes éventuels rencontrés. Cette approche collaborative a permis d'assurer la cohérence et la qualité de notre travail tout au long du processus de développement et on a pu avoi*r lezs résultat qu'on voulait :
+
+C’est donc  avec une peine non feinte que je vous annonce aujourd’hui que c’est la dernière fois que j’écris ici ,demain ça sera notre présentation !!!!!! et on saura si nous avons fait du bon travail ou pas .Nous avons donc terminé le PowerPoint , et nous avons finalisé le rapport. Pour ce dernier, nous avons eu quelques complications mais heureusement on a pu gérer et y faire face. 
+Je tiens à vous remercier et à remercier tous les membres du groupe .
+Merci d'avance pour votre lecture.
+
+
 
 
 <a href="index.html"> Retour à la page principale </a>
