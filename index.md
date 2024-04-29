@@ -73,7 +73,7 @@ Une densité de trafic plus élevée entraîne une probabilité accrue de boucho
 
 ## Présentation structurée des résultats
 wassim a suggéré plus on met des gbens dee different claqsse avec des differntes vitesses on crée des bouchons 
-pl;us la vitesse de la voiture spec varie plus il y'a une apparition de bouchons  spéciale 
+plus la vitesse de la voiture spec varie plus il y'a une apparition de bouchons  spéciale 
 
 un peu de passif ça 
 
