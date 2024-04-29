@@ -33,7 +33,7 @@ Durant cet étude nous avons affronter plusieurs difficultés commençant par la
 La présentation approche à grands pas et il ne nous reste plus que deux semaines. Cette semaine, on a fait plusieurs appels discord afin de compléter le code et valider les métriques finales qui sont :
    - Nombres de bouchons formés ;
    - Pourcentage de voitures arrêtées ;
-   - Distance moyenne entre les voitures ;
+   - Distance moyenne entre les voitures ;\n
 Ce sont elles qui vont nous permettre de représenter nos résultats sous forme de graphiques.
 
 
