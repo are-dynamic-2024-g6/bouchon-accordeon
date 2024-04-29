@@ -11,7 +11,8 @@ Cette recherche nous a permis d'identifier les variables clés à prendre en com
 "Gridlock: Why We're Stuck in Traffic and What to Do About It" par Randal O'Toole - Ce livre examine les multiples facteurs qui contribuent aux embouteillages, notamment l'aménagement urbain, les politiques de transport, l'économie et les comportements des conducteurs.
 Donc aprés ces recherches on a du commencé le code et préciser toutes les fonctions qu'on aura besoin tout au long du projet et bien évidement la premiére fonction était "Créer le monde" qui nous a pas pris beaucoup de temps mais le chargé de cette fonction "Wassim" 
 ### semaine 5
-Le développement du code de simulation a été une étape cruciale de notre projet. En utilisant l'environnement de programmation Spider, nous avons écrit le code nécessaire pour créer un modèle réaliste de la circulation routière, en mettant l'accent sur la formation et la propagation des embouteillages accordéon. Nous avons procédé à des tests rigoureux pour valider notre modèle, en ajustant les paramètres selon les besoins qui sont et en comparant nos résultats à des données réelles lorsque cela était possible.
+Le développement du code de simulation a été une étape cruciale de notre projet. En utilisant l'environnement de programmation Spider, nous avons écrit le code nécessaire pour créer un modèle réaliste de la circulation routière, en mettant l'accent sur la formation et la propagation des embouteillages accordéon. Nous avons procédé à des tests rigoureux pour valider notre modèle, en ajustant les paramètres selon les besoins  et en comparant nos résultats à des données réelles lorsque cela était possible les paramétres pris en compte sont :
+.
 Les automates avaient posé quelques difficultés car il fallait vraiment trouvé les bons calculs et les bons couples qu'on devait resortir 
 ###semaine 6
 <a href="index.html"> Retour à la page principale </a>
