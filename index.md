@@ -77,7 +77,7 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
 
 ## Présentation structurée des résultats
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20nombre%20bouchon%20part%201.png| width=100)
-!![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20nombre%20bouchon%20part%202.png| width=100)
+![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20nombre%20bouchon%20part%202.png| width=100)
 
 
 
