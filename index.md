@@ -62,7 +62,7 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
    - les types des conducteurs .
 
    
-   Les métriques :
+**Les métriques :
       
 - Nombre de bouchons formés : Nombre de groupe formés de voitures se suivant et roulant plus lentement qu'une vitesse fixée.
 
@@ -76,12 +76,9 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
 
 
 ## Présentation structurée des résultats
-wassim a suggéré plus on met des gens de differentes classes avec diffrentes vitesses on crée des bouchons 
-plus la vitesse de la voiture spec varie plus il y'a une apparition de bouchons  spéciale 
+![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20nombre%20bouchon%20part%201.png)
 
-un peu de passif ça 
 
-Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
