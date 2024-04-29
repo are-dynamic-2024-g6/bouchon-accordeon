@@ -1,7 +1,7 @@
 ## Travail effectué 
 
 => Description hebdomadaire du travail effectué (variez les auteurs !)
-
+![bouchons accordéon ](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.leparisien.fr%2Finfo-paris-ile-de-france-oise%2Ftransports%2Fgrand-paris-le-matin-sur-lautoroute-67-de-votre-temps-de-trajet-se-passe-dans-les-bouchons-08-11-2022-U3ZLUH7XORG5VPAZSPVUMZQPHA.php&psig=AOvVaw05LmIy6fDx179hxN0z1FOG&ust=1714484667314000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjfvZ7H54UDFQAAAAAdAAAAABAE)
 ### Semaine 1  ### Semaine 2
 
 Durant ces deux semaines initiales, nous avons entamé le processus de sélection du thème de notre projet. Tout d'abord, nous avons organisé des sessions de brainstorming en groupe afin de générer des idées sur des problèmes liés aux embouteillages urbains. Après une discussion approfondie et après le thème des perturbations des transports en commun que nous avions présenté la première semaine, plus précisement le 27 février, et qui n'a pas été validé par notre prof, nous avons décidé de nous concentrer sur le phénomène des embouteillages, qui ressemble au thème précédent, mais qui est plus simple à modéliser, ces derniers sont causés par les bouchons en voitures, également connus sous le nom d'embouteillages accordéon. Une fois notre thème choisi, nous avons préparé une présentation détaillée que nous avons ensuite soumise au professeur pour validation. Après examen, le professeur a approuvé notre choix de thème, lançant ainsi officiellement notre projet.
