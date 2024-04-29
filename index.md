@@ -97,7 +97,8 @@ Dans ce dernier cas présent ci-dessus, pour une densité de traffic de 0.3 (gra
 
 ## Bibliographie :
 - Livre : Randal O'Toole,""Gridlock: Why We're Stuck in Traffic and What to Do About It". Cato Institute , 2010 ,  9781930865472.
-- Site web : http://www.ifsttar.fr/
+- Site web : http://www.ifsttar.fr
+- 
 -Article académique : Daganzo, Carlos F. "Fundamentals of transportation and traffic operations." Pergamon Transportation Research Part B: Methodological, 1997, 10.1016/b978-008042993-2/50024-7
 **Carte mentale de vos mots-clés, en utilisant** <a href="https://framindmap.org/mindmaps/index.html">Framindmap </a> 
 
