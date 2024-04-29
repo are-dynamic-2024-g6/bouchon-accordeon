@@ -21,13 +21,13 @@ The main objective of this study is to determine the underlying causes of traffi
 ## Présentation de l'équipe
 
 
-| GHRAB Wassim  | DERRIDJ Asma |  Zeyuan chen | Jason Poyet Genel |
+|  GHRAB Wassim  |  DERRIDJ Asma  |  CHEN Zeyuan  |  POYET-GENEL Jason  |
 
 
 ## Description synthétique du projet
 
 **Problématique :
-Comment la vitesse et les types des conducteurs et puis les interactions des véhicules entre eux influencent-elles la formation et la propagation des bouchons  ?
+Comment la vitesse, les types des conducteurs ainsi que les interactions des véhicules entre eux influencent-ils la formation et la propagation des bouchons  ?
 
 
 **Hypothèse principale :
