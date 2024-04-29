@@ -84,7 +84,7 @@ On déduit des graphiques ci-dessus que peu importe la densité du traffic (taux
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20pourcentage%20arret%20part%201.png)
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20pourcentage%20arret%20part%202.png)
 
-Encore une fois, il n'y a presque pas de différences en fonction de la densité du traffic, peu importe cette dernière, le 
+Encore une fois, il n'y a presque pas de différences en fonction de la densité du traffic, peu importe cette dernière, le taux de voitures arrêtées est en baisse constante (ou presque) au fur et à mesure que l'on augmente le taux de copieurs
 
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20distance%20moyennne%20part%201.png)
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20distance%20moyenne%20part%202.png)
