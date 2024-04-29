@@ -31,7 +31,7 @@ Comment la vitesse, les types des conducteurs ainsi que les interactions des vé
 
 
 **Hypothèse principale :
-   + difference de Vitesse du véhicule  : 
+   + Différence de Vitesse du véhicule  : 
 Lorsqu'une ou plusieurs voitures changent de vitesse de manière significative, cela entraîne la formation de bouchons de circulation.
 
    + Densité du trafic : 
