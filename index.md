@@ -1,4 +1,4 @@
-#                 Bouchon accordéon
+# Bouchon accordéon
 
 
 Les embouteillages représentent un défi majeur dans la gestion des infrastructures routières urbaines. Comprendre les mécanismes qui les provoquent est essentiel pour élaborer des solutions efficaces. Dans le cadre de ce projet, nous nous sommes penchés sur la création d'un modèle expérimental visant à étudier les facteurs contribuant aux embouteillages, en mettant particulièrement l'accent sur le rôle des bouchons de voitures.
@@ -53,8 +53,8 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
 ### Les paramètres :
 
    - la taille du monde .
-   - le pourcentage des copieurs ( 40% de copieur = 60% de prudent).
-   - le pourcentage de voitures dans l'anneau ( .
+   - le pourcentage des copieurs ( exemple : 40% de copieur = 60% de prudent).
+   - le pourcentage de voitures dans l'anneau (determiner en fonction de la taille du monde) .
    - les types des conducteurs .
 
    
@@ -66,22 +66,24 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
 
 - Pourcentage d'arrêt : Le pourcentage de véhicules complètement arrêté ( c'est a dire vitesse = 0).
 
-### Modéle :
+### Modèle :
 
-Il y a deux fichiers dans le répertoire : l'un pour l'affichage console et l'autre pour l'interface graphique.Au cas ou celui avec l'interface graphique ne marche pas.
+Il y a deux fichiers dans le répertoire : l'un pour l'affichage console et l'autre pour l'interface graphique.Au cas où celui avec l'interface graphique ne marche pas.
+
+Voici une explication de chaque fonction du fichier :
 
 ##### reaction_copieur et reaction_prudent :
 + Ces deux dictionnaires définissent les réactions des conducteurs "copieurs" et "prudents" en fonction de la différence de vitesse entre leur voiture et celle de devant.
-##### class Voiture :
+##### def class Voiture :
 + Cette classe représente une voiture dans le modèle. Chaque voiture possède une position, un type de conducteur ("C" pour copieur, "P" pour prudent), un nom et un déplacement courant.
-##### creer_monde :
+##### def creer_monde :
 + Cette fonction crée une liste de voitures représentant l'état initial du monde. Le pourcentage de voitures et de copieurs est spécifié, et les voitures sont réparties aléatoirement entre les deux types de conducteurs.
-##### deplacement :
-+ Cette fonction effectue le déplacement des voitures dans le monde en fonction de leur vitesse et du type de conducteur. Les voitures "spéciales" ont un comportement différent pour ne pas dépasser les voitures, et le mouvement est périodique sur un anneau.
-##### generer_sequence_vitesses :
+##### def deplacement :
++ Cette fonction effectue le déplacement des voitures dans le monde en fonction de leur vitesse et du type de conducteur. La voiture "SPECIAL" à un comportement différent pour ne pas dépasser les voitures, et le mouvement est périodique sur un anneau.
+##### def generer_sequence_vitesses :
 + Cette fonction génère une séquence aléatoire de vitesses pour les tours de simulation, avec des variations aléatoires de vitesse.
-##### simulation :
-+ Cette fonction effectue une simulation du monde en faisant déplacer les voitures pendant un nombre spécifié de tours, en utilisant une séquence de vitesses générée aléatoirement.En sachant qu'un tour du monde equivaut a 4 a une vitesse de la sequence générer pour pouvoir stabiliser le monde.
+##### def simulation :
++ Cette fonction effectue une simulation du monde en faisant déplacer les voitures pendant un nombre spécifié de tours, en utilisant une séquence de vitesses générée aléatoirement.En sachant qu'un tour du monde equivaut à 4 tour à une vitesse de la sequence générer pour pouvoir stabiliser le monde.
 
 
 
@@ -124,16 +126,19 @@ Dans le deuxième graphique, avec une densité de trafic de 0.8, la distance moy
 Ces graphiques mettent en lumière certaines causes de la formation des bouchons dans notre système. On observe que les bouchons peuvent survenir soit en raison d'une saturation de l'anneau, soit lorsque le nombre de types de voitures est équilibré dans un monde relativement peu saturé. En raison de la diversité entre les voitures, notamment en ce qui concerne les comportements des conducteurs, des bouchons peuvent se former en raison des écarts de vitesse entre les différentes classes de conducteurs. Ainsi, lorsque la classe prudent ralentit ou anticipe plus tôt que les autres, cela peut entraîner la formation de bouchons.
 
 ## Conclusion et limite du sytème
+En résumé, notre étude sur la formation des embouteillages a permis d'identifier plusieurs facteurs clés influençant ce phénomène sur un anneau routier à voie unique. Nous avons observé que la différence de vitesse entre les conducteurs et leur réaction face à la formation de bouchons jouent un rôle crucial dans la propagation de ces derniers. Lorsque le taux de conducteurs copieurs dépasse celui des conducteurs prudents, le nombre de bouchons augmente significativement, mettant en évidence l'importance du comportement des conducteurs dans la circulation.
 
+Cependant, notre modèle présente quelques limitations. Il repose sur des hypothèses simplificatrices qui ne prennent pas en compte les variables externes telles que les conditions météorologiques ou les accidents de la route, limitant ainsi sa capacité à reproduire fidèlement le trafic routier réel. De plus, notre modèle ne prend pas en compte les interactions entre plusieurs voies de circulation ni les comportements de dépassement, ce qui restreint sa pertinence pour des scénarios plus complexes. Malgré ces limites, notre étude constitue une première étape importante vers une meilleure compréhension des embouteillages.
 
 
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
 ## Bibliographie :
 - Livre : Randal O'Toole,""Gridlock: Why We're Stuck in Traffic and What to Do About It". Cato Institute , 2010 ,  9781930865472.
-- Site web : http://www.ifsttar.fr
   
 -Article académique : Daganzo, Carlos F. "Fundamentals of transportation and traffic operations." Pergamon Transportation Research Part B: Methodological, 1997, 10.1016/b978-008042993-2/50024-7
+
+
 **Carte mentale de vos mots-clés, en utilisant** <a href="https://framindmap.org/mindmaps/index.html">Framindmap </a> 
 
 Liste de l'ensemble des ressources bibliographiques utilisées pour vos travaux. **<= Indiquez le canal utilisé pour les trouver (Google Scholar, sources wikipedia, ressources en ligne SU, ...)**
