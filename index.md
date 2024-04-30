@@ -1,4 +1,4 @@
-# Bouchon accordéon
+#                 Bouchon accordéon
 
 
 Les embouteillages représentent un défi majeur dans la gestion des infrastructures routières urbaines. Comprendre les mécanismes qui les provoquent est essentiel pour élaborer des solutions efficaces. Dans le cadre de ce projet, nous nous sommes penchés sur la création d'un modèle expérimental visant à étudier les facteurs contribuant aux embouteillages, en mettant particulièrement l'accent sur le rôle des bouchons de voitures.
