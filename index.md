@@ -37,7 +37,7 @@ Les conducteurs peuvent réagir différement fasse à une formation de bouchon, 
 S'il y a plus ou moins de voitures qui circulent sur la route.
     
 
-**Objectifs :
+### Objectifs :
 
    - Étudier la formation et la propagation des bouchons de circulation sur un anneau à voie unique, en prenant en compte différents paramètres.
 
@@ -92,7 +92,11 @@ Encore une fois, il n'y a presque pas de différences en fonction de la densité
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20distance%20moyennne%20part%201.png)
 ![alt text](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Graphique%20final%20distance%20moyenne%20part%202.png)
 
-Dans ce dernier cas présent ci-dessus, pour une densité de traffic de 0.3 (graph.1), la distance moyenne entre les véhicules est élevée avant que le taux de copieurs ne dépassent 0.8, en effet les prudent laissent beaucoup de distance entre eux et la voiture de devant, et avec une densité de traffic faible, la distance de base entre les voitures est d'office élevée, il n'y a donc que lorsque nous avons 100% de copieurs que la distance moyenne diminue drastiquement. Pour une densité de traffic de 0.5 (garph.2), nous sommes en présence du même cas que pour la densité de 0.3, mais la diminution drastique apparaîtra à partir d'un taux de copieurs à 0.2, car il y a en effet moins d'espace de base entre les voiture en vu de l'augmentation de la densité du traffic. Enfin, pour une densité de 0.8, on observe une courbe bien différente, la distance moyenne reste constante (plus faible que les autres cas en vu de l'augmentation de la densité comme vu précédemment) jusqu'à ce que le taux de copieurs (0.6) dépasse le taux de prudents (0.4), où l'on peut observer un pick avec une distance qui se mulltiplie par 3, on peut en déduire que prudents créent plusieurs petits bouchons à des endroits distants les uns des autres, tout ça avant de redescendre brusquement à partir d'un taux de copieurs de 0.8, car en effet, les copieurs ne peuevent pas augmenter la distance entre eux.
+Dans le premier graphique où la densité de trafic est de 0.3, la distance moyenne entre les véhicules reste élevée tant que le taux de copieurs reste inférieur à 0.8. Cela s'explique par le comportement prudent des conducteurs qui maintiennent une distance de sécurité conséquente entre leurs véhicules, d'autant plus que la densité de trafic est faible. Cependant, une fois que le taux de copieurs atteint 100%, la distance moyenne diminue drastiquement.
+
+Dans le deuxième graphique, avec une densité de trafic de 0.5, le schéma est similaire mais la diminution drastique de la distance moyenne se produit à partir d'un taux de copieurs de 0.2. Cette diminution intervient plus tôt en raison de la densité de trafic plus élevée, réduisant ainsi l'espace initial entre les véhicules.
+
+Dans le troisième graphique, avec une densité de trafic de 0.8, la distance moyenne reste relativement constante (bien que plus faible que dans les autres cas en raison de la densité plus élevée) jusqu'à ce que le taux de copieurs dépasse celui des prudents (0.4). À ce stade, on observe un pic où la distance entre les véhicules se multiplie par trois. Cela indique que les conducteurs prudents créent plusieurs petits bouchons à des endroits distants les uns des autres. Cependant, une fois que le taux de copieurs atteint 0.8, la distance moyenne diminue brusquement, car les conducteurs copieurs ne peuvent pas maintenir une distance de sécurité suffisante entre eux.
 
 ## Conclusion et limite du sytème
 
