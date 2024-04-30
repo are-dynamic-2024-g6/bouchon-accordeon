@@ -63,7 +63,7 @@ Une variation dans le nombre de voitures circulant sur la route peut entraîner 
 
 ### Modèle :
 
-Il y a deux fichiers dans le répertoire : l'un pour l'affichage console et l'autre pour l'interface graphique.Au cas où celui avec l'interface graphique ne marche pas.
+Il y a deux fichiers dans le répertoire : l'un pour l'affichage console et l'autre pour l'interface graphique. Au cas où celui avec l'interface graphique ne marche pas.
 
 Voici une explication de chaque fonction du fichier :
 
