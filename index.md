@@ -76,7 +76,7 @@ Voici une explication de chaque fonction du fichier :
 ##### def deplacement :
 + Cette fonction effectue le déplacement des voitures dans le monde en fonction de leur vitesse et du type de conducteur. La voiture "SPECIAL" à un comportement différent pour ne pas dépasser les voitures, et le mouvement est périodique sur un anneau.
 ##### def generer_sequence_vitesses :
-+ Cette fonction génère une séquence aléatoire de vitesses pour les tours de simulation, avec des variations aléatoires de vitesse.
++ Cette fonction génère une séquence aléatoire de vitesses pour les tours de simulation, avec des variations aléatoires de vitesse qui augmente et diminue.
 ##### def simulation :
 + Cette fonction effectue une simulation du monde en faisant déplacer les voitures pendant un nombre spécifié de tours, en utilisant une séquence de vitesses générée aléatoirement.En sachant qu'un tour du monde equivaut à 4 tour à une vitesse de la sequence générer pour pouvoir stabiliser le monde.
 
