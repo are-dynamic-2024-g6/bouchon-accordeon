@@ -68,6 +68,20 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
 
 ### Modéle :
 
+Il y a deux fichiers dans le répertoire : l'un pour l'affichage console et l'autre pour l'interface graphique.Au cas ou celui avec l'interface graphique ne marche pas.
+
+##### reaction_copieur et reaction_prudent :
++ Ces deux dictionnaires définissent les réactions des conducteurs "copieurs" et "prudents" en fonction de la différence de vitesse entre leur voiture et celle de devant.
+##### class Voiture :
++ Cette classe représente une voiture dans le modèle. Chaque voiture possède une position, un type de conducteur ("C" pour copieur, "P" pour prudent), un nom et un déplacement courant.
+##### creer_monde :
++ Cette fonction crée une liste de voitures représentant l'état initial du monde. Le pourcentage de voitures et de copieurs est spécifié, et les voitures sont réparties aléatoirement entre les deux types de conducteurs.
+##### deplacement :
++ Cette fonction effectue le déplacement des voitures dans le monde en fonction de leur vitesse et du type de conducteur. Les voitures "spéciales" ont un comportement différent pour ne pas dépasser les voitures, et le mouvement est périodique sur un anneau.
+##### generer_sequence_vitesses :
++ Cette fonction génère une séquence aléatoire de vitesses pour les tours de simulation, avec des variations aléatoires de vitesse.
+##### simulation :
++ Cette fonction effectue une simulation du monde en faisant déplacer les voitures pendant un nombre spécifié de tours, en utilisant une séquence de vitesses générée aléatoirement.En sachant qu'un tour du monde equivaut a 4 a une vitesse de la sequence générer pour pouvoir stabiliser le monde.
 
 
 
