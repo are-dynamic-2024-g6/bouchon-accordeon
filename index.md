@@ -25,12 +25,12 @@ Comment certaines caractéristiques des véhicules et des conducteurs, ainsi que
 Lorsqu'une ou plusieurs voitures changent de vitesse de manière significative, cela entraîne la formation de bouchons dans la circulation.
 
    + Comportement des Conducteurs : 
-Les conducteurs peuvent réagir différement fasse à une formation de bouchon, en fonction de leur comportement.
+Les conducteurs peuvent réagir différement en fonction de leur comportement et donc créé des bouchons.
 
 
 ### Hypothèse secondaire :
    +  La densité du traffic :
-S'il y a plus ou moins de voitures qui circulent sur la route.
+Une variation dans le nombre de voitures circulant sur la route peut entraîner des embouteillages.
     
 
 ### Objectifs :
