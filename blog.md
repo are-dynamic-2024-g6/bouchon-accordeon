@@ -1,5 +1,8 @@
 ## Travail effectué 
 
+
+![Un anneau routier](![WhatsApp Image 2024-04-30 à 10 05 40_3441d534](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/assets/159928048/b4fdb67f-ffbe-44b4-a176-366c588bf367)
+
 ### Semaine 1  ### Semaine 2
 
 Durant ces deux semaines initiales, nous avons entamé le processus de sélection du thème de notre projet. Tout d'abord, nous avons organisé des sessions de brainstorming en groupe afin de générer des idées sur des problèmes liés aux embouteillages urbains. Après une discussion approfondie et après le thème des perturbations des transports en commun que nous avions présenté la première semaine, plus précisement le 27 février, et qui n'a pas été validé par notre prof, nous avons décidé de nous concentrer sur le phénomène des embouteillages, qui ressemble au thème précédent, mais qui est plus simple à modéliser, ces derniers sont causés par les bouchons en voitures, également connus sous le nom d'embouteillages accordéon. Une fois notre thème choisi, nous avons préparé une présentation détaillée que nous avons ensuite soumise au professeur pour validation. Après examen, le professeur a approuvé notre choix de thème, lançant ainsi officiellement notre projet.
