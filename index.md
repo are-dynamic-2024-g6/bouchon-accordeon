@@ -8,10 +8,6 @@ L'objectif principal de cette étude est de déterminer les causes sous-jacentes
 
 
 
-![result](<img width="640" alt="image" src="https://github.com/are-dynamic-2024-g6/bouchon-accordeon/assets/159928048/5d89d3d4-116f-4117-a0b9-aaeaca3c9fc8">)
-
-
-
 ## Présentation de l'équipe
 
 
@@ -134,9 +130,17 @@ Cependant, notre modèle présente quelques limitations. Il repose sur des hypot
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
 ## Bibliographie :
-- Livre : Randal O'Toole,""Gridlock: Why We're Stuck in Traffic and What to Do About It". Cato Institute , 2010 ,  9781930865472.
+-   DRESNER, MARTIN. “Gridlock: Why We’re Stuck in Traffic and What To Do About It.” Transportation Journal 49.3 (2010): 67–68. Web.
   
--Article académique : Daganzo, Carlos F. "Fundamentals of transportation and traffic operations." Pergamon Transportation Research Part B: Methodological, 1997, 10.1016/b978-008042993-2/50024-7
+-   Taillanter, Erwan. “Réseaux Complexes et Trafic Routier.” N.p., 2023. Print.
+
+-   Shi, Xiaowei, and Xiaopeng Li. “Constructing a Fundamental Diagram for Traffic Flow with Automated Vehicles: Methodology and Demonstration.” Transportation research. Part B: methodological 150 (2021): 279–292. Web.
+
+-   Abouaïssa, Hassane, Yoann Kubera, and Gildas Morvan. Modélisation hybride dynamique de flux de trafic: Rapport scientifique 2014 - CISIT Phase 5, Projet ISART. N.p., 2015. Print.
+
+-   Traffic Flow Simulation in Python - Javatpoint. (s. d.). www.javatpoint.com. https://www.javatpoint.com/traffic-flow-simulation-in-python
+
+-   Le Monde De Jamy. (2017, 7 juillet). Le meilleur du Monde de Jamy - Comment se forment les bouchons ? [Vidéo]. YouTube. https://www.youtube.com/watch?v=wHz6S2dbYb4
 
 
 **Carte mentale de vos mots-clés, en utilisant** <a href="https://framindmap.org/mindmaps/index.html">Framindmap </a> 
