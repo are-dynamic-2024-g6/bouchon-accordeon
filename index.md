@@ -51,6 +51,11 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
 
 
 
+ 		![test](![Uploading WhatsApp Image 2024-04-30 à 10.07.42_add9cb60.jpg…]()
+
+
+
+
 **Critère(s) d'évaluation :
 
 * Afin de tester notre code et nos fonctions ,on met en place les paramétres et les métriques suivants :
