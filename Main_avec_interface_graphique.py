@@ -183,11 +183,11 @@ def draw_cars_on_circle(screen, cars, zoom,size):
 running = True
 clock = pygame.time.Clock()
 zoom = 1.0  # Facteur de zoom initial
-taille=80
-pourcentage_voitures=0.4
+taille=50
+pourcentage_voitures=0.6
 pourcentage_de_copieur=0.5
 monde_cree = creer_monde(taille, pourcentage_voitures, pourcentage_de_copieur)
-cars = [Voiture(position=voiture.position, conducteur=voiture.conducteur, name=voiture.name) for voiture in monde_cree]
+
 sequence = generer_sequence_vitesses(5)
 
 while running: 
@@ -202,7 +202,7 @@ while running:
                 
     screen.fill(WHITE)
     draw_circle(screen, taille * zoom )  # Appel de la fonction pour dessiner le cercle avec une épaisseur
-    draw_cars_on_circle(screen, cars, zoom, taille)# Dessiner les voitures sur le cercle avec le zoom
+    draw_cars_on_circle(screen, monde_cree, zoom, taille)# Dessiner les voitures sur le cercle avec le zoom
     
     run_text1 = font.render("Tour : 1", True, BLACK)
     run_text2 = font.render("BLUE : Copieur", True, BLACK)
@@ -225,10 +225,9 @@ while running:
     for vitesse in sequence:
         for i in range(2,6):
             monde_cree = deplacement(monde_cree, vitesse , taille)
-            cars = [Voiture(position=voiture.position, conducteur=voiture.conducteur, name=voiture.name) for voiture in monde_cree]
             screen.fill(WHITE)
             draw_circle(screen, taille * zoom )  # Appel de la fonction pour dessiner le cercle avec une épaisseur
-            draw_cars_on_circle(screen, cars, zoom, taille)# Dessiner les voitures sur le cercle avec le zoom
+            draw_cars_on_circle(screen, monde_cree, zoom, taille)# Dessiner les voitures sur le cercle avec le zoom
             run_text1 = font.render(f"Tour: {i}", True, BLACK)
             run_text2 = font.render("BLUE : Copieur", True, BLACK)
             run_text3 = font.render("RED : Prudent", True, BLACK)
@@ -253,4 +252,5 @@ clock.tick(60)
 pygame.display.quit()
 pygame.quit()
 sys.exit()
+
 
