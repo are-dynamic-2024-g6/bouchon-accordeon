@@ -66,6 +66,9 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
 
 - Pourcentage d'arrêt : Le pourcentage de véhicules complètement arrêté ( c'est a dire vitesse = 0).
 
+### Modéle :
+
+
 
 
 ## Présentation structurée des résultats
@@ -103,6 +106,8 @@ Dans le premier graphique où la densité de trafic est de 0.3, la distance moye
 Dans le deuxième graphique, avec une densité de trafic de 0.5, le schéma est similaire mais la diminution drastique de la distance moyenne se produit à partir d'un taux de copieurs de 0.2. Cette diminution intervient plus tôt en raison de la densité de trafic plus élevée, réduisant ainsi l'espace initial entre les véhicules.
 
 Dans le troisième graphique, avec une densité de trafic de 0.8, la distance moyenne reste relativement constante (bien que plus faible que dans les autres cas en raison de la densité plus élevée) jusqu'à ce que le taux de copieurs dépasse celui des prudents (0.4). À ce stade, on observe un pic où la distance entre les véhicules se multiplie par trois. Cela indique que les conducteurs prudents créent plusieurs petits bouchons à des endroits distants les uns des autres. Cependant, une fois que le taux de copieurs atteint 0.8, la distance moyenne diminue brusquement, car les conducteurs copieurs ne peuvent pas maintenir une distance de sécurité suffisante entre eux.
+
+Ces graphiques mettent en lumière certaines causes de la formation des bouchons dans notre système. On observe que les bouchons peuvent survenir soit en raison d'une saturation de l'anneau, soit lorsque le nombre de types de voitures est équilibré dans un monde relativement peu saturé. En raison de la diversité entre les voitures, notamment en ce qui concerne les comportements des conducteurs, des bouchons peuvent se former en raison des écarts de vitesse entre les différentes classes de conducteurs. Ainsi, lorsque la classe prudent ralentit ou anticipe plus tôt que les autres, cela peut entraîner la formation de bouchons.
 
 ## Conclusion et limite du sytème
 
