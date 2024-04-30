@@ -131,6 +131,7 @@ Cependant, notre modèle présente quelques limitations. Il repose sur des hypot
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
 ## Bibliographie :
+### ressources en ligne SU:
 -   DRESNER, MARTIN. “Gridlock: Why We’re Stuck in Traffic and What To Do About It.” Transportation Journal 49.3 (2010): 67–68. Web.
   
 -   Taillanter, Erwan. “Réseaux Complexes et Trafic Routier.” N.p., 2023. Print.
@@ -139,8 +140,11 @@ Cependant, notre modèle présente quelques limitations. Il repose sur des hypot
 
 -   Abouaïssa, Hassane, Yoann Kubera, and Gildas Morvan. Modélisation hybride dynamique de flux de trafic: Rapport scientifique 2014 - CISIT Phase 5, Projet ISART. N.p., 2015. Print.
 
+### Recherche Google:
+
 -   Traffic Flow Simulation in Python - Javatpoint. (s. d.). www.javatpoint.com. https://www.javatpoint.com/traffic-flow-simulation-in-python
 
+### Recherche Youtube:
 -   Le Monde De Jamy. (2017, 7 juillet). Le meilleur du Monde de Jamy - Comment se forment les bouchons ? [Vidéo]. YouTube. https://www.youtube.com/watch?v=wHz6S2dbYb4
 
 
