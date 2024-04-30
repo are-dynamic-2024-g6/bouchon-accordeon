@@ -2,8 +2,6 @@
 
 # Bouchon accordéon
 
-![test](![WhatsApp Image 2024-04-29 à 17 52 38_431f4c18](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/assets/159928048/57e0628a-c593-4d1e-82e2-e19ca5a273a6)
-
 
 Les embouteillages représentent un défi majeur dans la gestion des infrastructures routières urbaines. Comprendre les mécanismes qui les provoquent est essentiel pour élaborer des solutions efficaces. Dans le cadre de ce projet, nous nous sommes penchés sur la création d'un modèle expérimental visant à étudier les facteurs contribuant aux embouteillages, en mettant particulièrement l'accent sur le rôle des bouchons de voitures.
 L'objectif principal de cette étude est de déterminer les causes sous-jacentes des embouteillages en simulant un environnement routier contrôlé. Pour ce faire, nous avons mis en place un anneau routier expérimental doté d'une seule voie, permettant d'observer et d'analyser les perturbations de la circulation.
