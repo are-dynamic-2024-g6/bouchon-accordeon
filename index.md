@@ -20,7 +20,7 @@ L'objectif principal de cette étude est de déterminer les causes sous-jacentes
 
 ## Description synthétique du projet
 
-###Problématique :
+### Problématique :
 Comment certaines caractéristiques des véhicules et des conducteurs, ainsi que les interactions des véhicules entre eux influencent-ils la formation et la propagation des bouchons  ?
 
 
