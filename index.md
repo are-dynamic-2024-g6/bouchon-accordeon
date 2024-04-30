@@ -38,8 +38,7 @@ S'il y a plus ou moins de voitures qui circulent sur la route.
    - Étudier la formation et la propagation des bouchons de circulation sur un anneau à voie unique, en prenant en compte différents paramètres.
 
 
-
- 		![test](![Uploading WhatsApp Image 2024-04-30 à 10.07.42_add9cb60.jpg…]()
+![test](https://github.com/are-dynamic-2024-g6/bouchon-accordeon/blob/master/images/Interface_graph.jpg)
 
 
 ### Critère(s) d'évaluation :
