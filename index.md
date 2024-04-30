@@ -105,7 +105,7 @@ Cette tendance est suivie d'une diminution du nombre de bouchons jusqu'à ce qu'
 
 Dans ces graphiques peu importe la densité du trafic, lorsque le taux de conducteurs copieurs est faible (ce qui signifie qu'il y a plus de conducteurs prudents), le taux d'arrêt des véhicules tend à être très élevé. En effet, les conducteurs prudents ont la tendance à freiner et à arrêter les conducteurs copieurs qui les suivent, comme nous l'avons précédemment conclu lors de notre étude sur la formation de bouchons en fonction du taux de conducteurs copieurs (et donc aussi des conducteurs prudents).
 
-Cependant, dès que le taux de conducteurs copieurs dépasse celui des conducteurs prudents (par exemple, 0.5 de conducteurs copieurs = 0.5 de conducteurs prudents), le taux de véhicules arrêtés diminue de manière constante, voire presque constante. Cette tendance se maintient à mesure que le taux de conducteurs copieurs augmente, ce qui suggère que les conducteurs copieurs adoptent un comportement qui incite les autres véhicules à ne pas s'arrêter.
+Cependant, dès que le taux de conducteurs copieurs dépasse celui des conducteurs prudents (par exemple, 0.5 de conducteurs copieurs = 0.5 de conducteurs prudents), le taux de véhicules arrêtés diminue de manière constante. Cette tendance se maintient à mesure que le taux de conducteurs copieurs augmente, ce qui suggère que les conducteurs copieurs adoptent un comportement qui incite les autres véhicules à ne pas s'arrêter.
 
 ### Interpretation des graphiques de la distance moyenne :
 
