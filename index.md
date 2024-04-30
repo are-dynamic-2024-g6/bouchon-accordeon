@@ -131,7 +131,7 @@ Cependant, notre modèle présente quelques limitations. Il repose sur des hypot
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
 ## Bibliographie :
-### ressources en ligne SU:
+### Ressources en ligne SU:
 -   DRESNER, MARTIN. “Gridlock: Why We’re Stuck in Traffic and What To Do About It.” Transportation Journal 49.3 (2010): 67–68. Web.
   
 -   Taillanter, Erwan. “Réseaux Complexes et Trafic Routier.” N.p., 2023. Print.
